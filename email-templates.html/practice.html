@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email {
+        flex: 1 0 120px;
+    }
+
+    .name {
+        flex: 1 0 140px;
+    }
+
+    .button {
+        flex: 1 0 60px;
+    }
+</style>
+
+<body>
+    <div class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <input type="text" class="name" value="last-name">
+
+                </div>
+                <div class="col-5">
+                    <input type="text" class="email" value="name">
+
+                </div>
+                <div class="col-4">
+                    <input type="button" class="button" value="submit">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
